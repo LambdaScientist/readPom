@@ -20,11 +20,6 @@ struct GetTag{
     auto operator()(xml_node<> *node){
         return node->first_node(tag);
     }
-    // template <typename T>
-    // T orElse(xml_node<> *node, T defaultValue){
-    //     auto result = node->first_node(tag);
-    //     return result == nullptr ? defaultValue : *result;
-    // }
     private: 
         Tag tag;
 };
