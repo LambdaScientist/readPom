@@ -1,0 +1,27 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                        https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <version>512</version>
+    <groupId>this.thing</groupId>
+    <artifactId>foo</artifactId>
+    <dependencies>
+    <dependency>
+        <version>4.12</version>
+        <groupId>ojunit</groupId>
+        <artifactId>sjunit</artifactId>
+        <type>jar</type>
+        <scope>test</scope>
+        <optional>true</optional>
+    </dependency>
+     <dependency>
+        <groupId>junit4</groupId>
+        <artifactId>jun4it</artifactId>
+        <version>4.142</version>
+        <type>ja4r</type>
+        <scope>te4st</scope>
+        <optional>tr4ue</optional>
+    </dependency>
+    </dependencies>
+</project>
